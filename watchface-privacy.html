@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy – [DEVELOPER NAME] Watch Faces</title>
+<meta name="description" content="Privacy policy for all Wear OS watch faces published by [DEVELOPER NAME].">
+<style>
+  :root {
+    --bg: #eef1f4;
+    --surface: #ffffff;
+    --ink: #1c2430;
+    --muted: #5a6575;
+    --line: #d5dbe2;
+    --accent: #2f6f8f;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151a21; --surface: #1d242d; --ink: #e6eaef;
+      --muted: #9aa5b3; --line: #2e3742; --accent: #7fb7d4;
+    }
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 1.0625rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem 4rem;
+  }
+  header { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 2.5rem; }
+  header svg { flex: none; width: 4.5rem; height: 4.5rem; }
+  h1 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-weight: 600; font-size: 2rem; line-height: 1.15; margin: 0;
+  }
+  .meta { color: var(--muted); font-size: .9375rem; margin: .35rem 0 0; }
+  .summary {
+    background: var(--surface); border-left: 3px solid var(--accent);
+    padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; margin-bottom: 2.5rem;
+  }
+  h2 {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-weight: 600; font-size: 1.3rem; margin: 2.25rem 0 .5rem;
+  }
+  p, ul { margin: 0 0 1rem; }
+  ul { padding-left: 1.25rem; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9375rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="0 0 72 72" aria-hidden="true">
+      <circle cx="36" cy="36" r="33" fill="none" stroke="var(--ink)" stroke-width="3"/>
+      <line x1="36" y1="36" x2="36" y2="15" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/>
+      <line x1="36" y1="36" x2="50" y2="44" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="36" cy="36" r="3" fill="var(--ink)"/>
+    </svg>
+    <div>
+      <h1>Watch face privacy policy</h1>
+      <p class="meta">Last updated: [DATE]</p>
+    </div>
+  </header>
+
+  <p class="summary">In short: our watch faces do not collect, store, or share any personal data. Everything they show is processed on your watch and never leaves it.</p>
+
+  <p>This policy applies to every Wear OS watch face published by [DEVELOPER NAME] on Google Play ("the watch faces") and explains how they handle your information.</p>
+
+  <h2>Information we collect</h2>
+  <p>None. The watch faces do not collect personal information, do not require an account, and do not send any data to us or to third parties. They contain no analytics, advertising, or tracking software.</p>
+
+  <h2>Data shown on the watch face</h2>
+  <p>Depending on the design, a watch face may display information such as time, date, battery level, steps, or heart rate. This information is read from your watch's sensors or from complications you choose, and it is used only to draw the watch face. It stays on your device and is not stored or transmitted.</p>
+
+  <h2>Permissions</h2>
+  <p>Some watch faces may request the following permissions, used only for the purpose described:</p>
+  <ul>
+    <li>Physical activity: to show your step count on the watch face.</li>
+    <li>Body sensors: to show your heart rate on the watch face.</li>
+  </ul>
+  <p>You can revoke these permissions at any time in your watch settings. The watch face keeps working without the related information.</p>
+
+  <h2>Third-party complications</h2>
+  <p>If you add complications from other apps, those apps provide the data and are covered by their own privacy policies.</p>
+
+  <h2>Children's privacy</h2>
+  <p>The watch faces do not knowingly collect information from anyone, including children under 13.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new "Last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this policy, email <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a>.</p>
+
+  <footer>© [YEAR] [DEVELOPER NAME]</footer>
+</main>
+</body>
+</html>
